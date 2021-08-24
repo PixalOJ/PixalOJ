@@ -73,5 +73,11 @@
 <title> 错误404 </title>
 <h1> 错误404 : 你要找的页面不存在</h1>
   <li> 3秒后返回上一页 </li>
-<meta http-equiv="refresh" content="3; URL=javascript:history.go(-1)" />
+<SCRIPT language=javascript>
+function go()
+{
+window.history.go(-1);
+}
+setTimeout("go()",3000);
+</SCRIPT>
 
