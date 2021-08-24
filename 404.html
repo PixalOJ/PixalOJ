@@ -72,7 +72,26 @@
 
 <title> 错误404 </title>
 <h1> 错误404 : 你要找的页面不存在</h1>
-  <li> 3秒后返回上一页 </li>
+  <li> <script language="JavaScript">
+      var timerID = null
+      var timerRunning = false
+      function stopclock(){
+      if(timerRunning)
+      clearTimeout(timerID)
+      timerRunning = false
+      }
+      function startclock(){
+      stopclock()
+      showtime(时间)
+      }
+      function showtime(时间){
+      if(时间>0){
+      时间 = 时间-1;
+      }
+      timerID = setTimeout("showtime()",3000)
+      timerRunning = true
+      }
+      </script>秒后返回上一页 </li>
 <SCRIPT language=javascript>
 function go()
 {
