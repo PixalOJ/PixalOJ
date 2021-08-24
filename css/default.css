@@ -843,21 +843,3 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   background-color: #3f3f3f;
   color: #fff;
 }
-
-CSS.back {background: white; color: #555;text-align: center}
-
-@media (prefers-color-scheme: dark) {
-
-.back {background: #333; color: white;}
-
-.models {border:solid 1px #00ff00}
-
-}
-
-@media (prefers-color-scheme: light) {
-
-.back {background: white; color: #555;}
-
-.models {border:solid 1px #2b85e4}
-
-}
