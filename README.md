@@ -1,2 +1,2 @@
 # Pixal Online Judge
-https://elevenstudio-main.github.io/PixalOJ/
+https://pixaloj.github.io
